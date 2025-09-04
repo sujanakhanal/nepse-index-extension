@@ -1,1 +1,1 @@
-# nepse-index-extension
+A chrome extension to see the current nespe index.
