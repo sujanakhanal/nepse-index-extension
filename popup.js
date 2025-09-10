@@ -9,7 +9,7 @@ const getNepseIndex = async () => {
     nepseData.innerHTML = `
         Latest price: ${data.response.latest_price}<br>
         Latest point : ${data.response.point_change}<br>
-        Latest percentage : ${data.response.percentage_change}
+        Latest percentage : ${(data.response.percentage_change, "%")}
         
         `;
   } catch (error) {
